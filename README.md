@@ -3,8 +3,6 @@
 ## 📚 About Data
 HR Analysis attrition data including department, education field, job role, age group, gender, and job satisfaction, segmented by key demographics and roles. This dashboard visualizes a dataset of 1,470 employees to highlight attrition patterns, workforce dynamics, and retention challenges across the organization.
 
-#hranalysisattrition
-
 ## 💡 Highlights
 
 - Overall Attrition Rate is 16.12%, with 237 employees leaving out of 1,470 total.
@@ -20,10 +18,6 @@ Conducted simple data wrangling and data cleaning:
 - Cleaned Valuation and Funding columns and cast as float
 - Exclude rows with "Unknown" Funding values
 - Explode Select Investors column into individual rows for categorical analysis
-
-📍 Jupyter script: Notebook
-
-📍 Clean Data: a.csv
 
 ## 📊 Visualization
 - Produced a 1-pager dashboard using Power BI.
