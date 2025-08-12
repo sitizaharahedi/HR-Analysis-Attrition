@@ -1,7 +1,14 @@
 # 🖥️ HR Analysis Attrition Dashboard
 
+An interactive Power BI dashboard analyzing employee attrition across various departments, education fields, age groups, job roles and satisfaction levels. Built to help HR professionals identify workforce trends, retention challenges and areas needing intervention.
+
 ## 📚 About Data
-HR Analysis attrition data including department, education field, job role, age group, gender, and job satisfaction, segmented by key demographics and roles. This dashboard visualizes a dataset of 1,470 employees to highlight attrition patterns, workforce dynamics, and retention challenges across the organization.
+
+The dataset includes detailed HR records of 1,470 employees, capturing demographic, job, and education-related features. Key data points include:
+- Department, Job Role, and Education Field
+- Gender and Age Group
+- Job Satisfaction Levels
+- Attrition Status (Yes/No)
 
 ## 💡 Highlights
 
@@ -12,15 +19,26 @@ HR Analysis attrition data including department, education field, job role, age 
 - Laboratory Technicians report the highest attrition by job role and show a wide range in job satisfaction levels, with 80 employees rating 3.
 
 ## ✏️ Data Wrangling
-Conducted simple data wrangling and data cleaning:
 
 - Removed rows with missing values
-- Cleaned Valuation and Funding columns and cast as float
-- Exclude rows with "Unknown" Funding values
-- Explode Select Investors column into individual rows for categorical analysis
+- Cleaned and converted numeric columns to appropriate formats
+- Filtered out entries with "Unknown" or null values
+- Performed categorical expansion for deeper demographic analysis
 
-## 📊 Visualization
-- Produced a 1-pager dashboard using Power BI.
-- Power BI : [Link](https://app.powerbi.com/view?r=eyJrIjoiZWJhODc1MGMtMjQzMS00Njc2LWE3MzQtYzI4ZWJlOTk4OWViIiwidCI6ImFjZWQ1ODNlLTRhM2ItNDJkZS05ZTQ0LTRlNWFmYTk5Yjk4YSIsImMiOjEwfQ%3D%3D)
+## 🔍 Purpose
+
+This dashboard is designed for HR managers, analysts and business leaders to:
+- Identify departments and roles with high attrition
+- Understand patterns across demographics (age, gender, education)
+- Take action on job satisfaction trends and employee retention risks
+
+## 🧠 Data Storytelling
+Attrition appears most concentrated within critical talent pools. For instance, while the 35–44 age group makes up the bulk of the workforce, the 25–34 group is leaving at a faster rate. Departments like R&D are particularly vulnerable, contributing over half of all attrition cases, signaling potential engagement or workload challenges. Additionally, high attrition from Life Sciences and Medical backgrounds may affect knowledge retention in specialized roles. Notably, Laboratory Technicians show a wide spread in job satisfaction scores, suggesting varying employee experiences within the same role.
+
+This analysis can guide HR in developing targeted retention strategies, improving satisfaction, and addressing high-risk departments.
+
+## 📌 Tools Used
+
+Power BI for data visualization and dashboard creation. [Link](https://app.powerbi.com/view?r=eyJrIjoiZWJhODc1MGMtMjQzMS00Njc2LWE3MzQtYzI4ZWJlOTk4OWViIiwidCI6ImFjZWQ1ODNlLTRhM2ItNDJkZS05ZTQ0LTRlNWFmYTk5Yjk4YSIsImMiOjEwfQ%3D%3D)
 
 ![HR Analysis Attrition](./HR-Analysis-Attrition.jpg)
